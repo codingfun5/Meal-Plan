@@ -4,9 +4,7 @@ const MyList = ({mealPlans, addMeal, deleteDay, selectedDay, setSelectedDay}) =>
     <div>
         <h1>Weekly Meal Plan Ideas</h1>
         <button className="button-add" onClick={addMeal}>Add</button>
-
-       
-    </div>
+</div>
     
     <div>
         
@@ -18,12 +16,8 @@ const MyList = ({mealPlans, addMeal, deleteDay, selectedDay, setSelectedDay}) =>
                 <button className="button-delete" onClick={() => deleteDay(id)}>Delete</button>
                 
             </div>
-            
-        ))}
-        
-    </div>
-    
-    
+            ))}
+        </div>
     </div>
     )
 }

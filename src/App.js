@@ -52,9 +52,7 @@ function App() {
       setSelectedDay={setSelectedDay}/>
               
       <MyMealsAndIngredients selectedDay={getActiveMeal()}  updateDay={updateDay}/>
-     
-     
-    </div>
+      </div>
   );
   
   

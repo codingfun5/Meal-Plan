@@ -20,20 +20,18 @@ const MyMealsAndIngredients = ({selectedDay, updateDay}) => {
             />
 
             <textarea 
-             placeholder="Write your meal plan here"
-             id="mealForADay"
-             value={selectedDay.mealForADay}
-             onChange = {(e) => editMyMeal("mealForADay", e.target.value)}/>
+                placeholder="Write your meal plan here"
+                id="mealForADay"
+                value={selectedDay.mealForADay}
+                onChange = {(e) => editMyMeal("mealForADay", e.target.value)}/>
 
             <textarea 
-             placeholder="List of ingredients"
-             id="mealForADay"
-             value={selectedDay.ingredients}
-             onChange = {(e) => editMyMeal("ingredients", e.target.value)}/>
+                placeholder="List of ingredients"
+                id="mealForADay"
+                value={selectedDay.ingredients}
+                onChange = {(e) => editMyMeal("ingredients", e.target.value)}/>
 
         </div>
-   
- 
-    )
+        )
 }
 export default MyMealsAndIngredients;
